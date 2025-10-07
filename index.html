@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Harry Potter Dark & Horror Gallery</title>
+<style>
+body {
+  margin: 0;
+  font-family:Arial, sans-serif;
+  background:#000;
+  color:#fff;
+  text-align:center;
+}
+
+h1 {
+  padding:20px;
+  color: #b30000;
+  text-shadow: 0 0 15px #8b0000, 0 0 25px #000;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+  padding: 20px;
+}
+
+.gallery img {
+  width:100%;
+  height:250px;
+  object-fit: cover;
+  border-radius:10px;
+  border: 2px solid #b30000;
+  box-shadow: 0 0 20px rgba(0,0,0,0.9);
+  transition:transform 0.4s ease, filter 0.4s ease;
+  filter: brightness(0.7) contrast(1.2);
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+  filter: brightness(1) contrast(1.4) saturate(1.2);
+}
+@media (max-width: 600px){
+    h1{
+        font-size:1.5em;
+        padding:10px;
+    }
+    .gallery img{
+        height:195px;
+    }
+}
+</style>
+</head>
+<body>
+<h1>Harry Potter Dark & Horror Gallery</h1>
+
+<div class="gallery">
+    <img src="https://tse4.mm.bing.net/th/id/OIP.LvFobl2C_GGWUpcalx0ZEQHaDK?cb=12&pid=Api" alt="Voldemort and the Death Eaters in Forbidden Forest">
+    <img src="https://tse4.mm.bing.net/th/id/OIP.9Lhm9To8o2kfwJGsjOuwdwHaDE?cb=12&pid=Api" alt="Forbidden Forest - Harry Potter">
+    <img src="https://tse4.mm.bing.net/th/id/OIP.80PaK7HvatWgYJ4NE8wq4gHaE8?cb=12&pid=Api" alt="Voldemort and Death Eaters Dark Scene">
+    <img src="https://tse3.mm.bing.net/th/id/OIP.S_a1y816MXEWiAqPevb49gHaFj?cb=12&pid=Api" alt="Magical Forbidden Forest 2024">
+    <img src="https://tse2.mm.bing.net/th/id/OIP.j8SYe21H6q1Kpw7OsBgE4QHaEA?pid=ImgDet&rs=1" alt="Hogwarts Castle Magic">
+    <img src="https://tse1.mm.bing.net/th/id/OIP.jequl-r5sAl-2S_vD6o29wHaDt?pid=ImgDet&rs=1" alt="Forbidden Forest">
+    <img src="https://tse4.mm.bing.net/th/id/OIP.z8GCwdPNJBb0aCkXMbz5UwHaEa?pid=ImgDet&rs=1" alt="Dark Scene 1">
+    <img src="https://tse3.mm.bing.net/th/id/OIP.qYdD7adX_8vwMzYhylMJsAHaNK?pid=ImgDet&rs=1" alt="Dementors Scene">
+    <img src="https://tse4.mm.bing.net/th/id/OIP.0JHk1gk3Yk1bX3nYyXo9mAHaEK?pid=ImgDet&rs=1" alt="Dark Scene 2">
+
+</div>
+
+</body>
+</html>
